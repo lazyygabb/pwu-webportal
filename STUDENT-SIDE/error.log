@@ -1,0 +1,666 @@
+[09-Oct-2025 17:11:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'year_level' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php:69
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php(69): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 69
+[09-Oct-2025 17:14:40 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'course' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php:69
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php(69): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 69
+[09-Oct-2025 17:14:41 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'course' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php:69
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php(69): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 69
+[09-Oct-2025 17:15:29 Europe/Berlin] PHP Warning:  Undefined array key "term" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 228
+[09-Oct-2025 17:17:09 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:17:47 Europe/Berlin] PHP Warning:  Undefined variable $firstName in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:17:47 Europe/Berlin] PHP Warning:  Undefined variable $lastName in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:17:47 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' ''' at line 1 in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:18:05 Europe/Berlin] PHP Warning:  Undefined variable $email in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:18:05 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:18:06 Europe/Berlin] PHP Warning:  Undefined variable $email in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:18:06 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:19:29 Europe/Berlin] PHP Warning:  Undefined variable $user_name in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:19:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:19:29 Europe/Berlin] PHP Warning:  Undefined variable $user_name in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:19:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:19:30 Europe/Berlin] PHP Warning:  Undefined variable $user_name in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:19:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:19:30 Europe/Berlin] PHP Warning:  Undefined variable $user_name in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:19:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:20:23 Europe/Berlin] PHP Warning:  Undefined variable $user_name in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 18
+[09-Oct-2025 17:20:23 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:18
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(18): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 18
+[09-Oct-2025 17:20:23 Europe/Berlin] PHP Warning:  Undefined variable $user_name in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 18
+[09-Oct-2025 17:20:23 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:18
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(18): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 18
+[09-Oct-2025 17:21:38 Europe/Berlin] PHP Warning:  Undefined variable $firstName in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:21:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:21:42 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:23:17 Europe/Berlin] PHP Warning:  Undefined array key "email" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 18
+[09-Oct-2025 17:23:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:24:20 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:24:21 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:24:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:24:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:24:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:24:31 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:24:31 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:25:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:26:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:26:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:26:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:26:01 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:26:01 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:26:36 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:21
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(21): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[09-Oct-2025 17:28:35 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 189
+[09-Oct-2025 17:28:35 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 217
+[09-Oct-2025 17:28:35 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 245
+[09-Oct-2025 17:28:35 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 273
+[09-Oct-2025 17:28:35 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 301
+[09-Oct-2025 17:28:35 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 329
+[09-Oct-2025 17:28:35 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 357
+[09-Oct-2025 17:28:35 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 385
+[09-Oct-2025 17:30:39 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 217
+[09-Oct-2025 17:30:39 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 245
+[09-Oct-2025 17:30:39 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 273
+[09-Oct-2025 17:30:39 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 301
+[09-Oct-2025 17:30:39 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 329
+[09-Oct-2025 17:30:39 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 357
+[09-Oct-2025 17:30:39 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 385
+[10-Oct-2025 19:06:39 Europe/Berlin] PHP Warning:  Undefined variable $sql in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php on line 18
+[10-Oct-2025 19:06:39 Europe/Berlin] PHP Deprecated:  mysqli::query(): Passing null to parameter #1 ($query) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php on line 18
+[10-Oct-2025 19:06:39 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php:18
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php(18): mysqli->query('')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php on line 18
+[10-Oct-2025 19:06:56 Europe/Berlin] PHP Warning:  Undefined variable $sql in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php on line 18
+[10-Oct-2025 19:06:56 Europe/Berlin] PHP Deprecated:  mysqli::query(): Passing null to parameter #1 ($query) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php on line 18
+[10-Oct-2025 19:06:56 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php:18
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php(18): mysqli->query('')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php on line 18
+[10-Oct-2025 19:06:57 Europe/Berlin] PHP Warning:  Undefined variable $sql in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php on line 18
+[10-Oct-2025 19:06:57 Europe/Berlin] PHP Deprecated:  mysqli::query(): Passing null to parameter #1 ($query) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php on line 18
+[10-Oct-2025 19:06:57 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php:18
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php(18): mysqli->query('')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php on line 18
+[10-Oct-2025 19:06:57 Europe/Berlin] PHP Warning:  Undefined variable $sql in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php on line 18
+[10-Oct-2025 19:06:57 Europe/Berlin] PHP Deprecated:  mysqli::query(): Passing null to parameter #1 ($query) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php on line 18
+[10-Oct-2025 19:06:57 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php:18
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php(18): mysqli->query('')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\concernandfeedback.php on line 18
+[10-Oct-2025 20:07:43 Europe/Berlin] PHP Warning:  Undefined array key "course" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 182
+[10-Oct-2025 20:07:43 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 182
+[10-Oct-2025 21:23:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 15
+[10-Oct-2025 21:28:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:28:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:28:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:28:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:40:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:40:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:40:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:40:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:49:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:49:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:49:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:49:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:49:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:51:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:51:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 21:51:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getProfilePicture() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 51
+[10-Oct-2025 22:24:46 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 164
+[10-Oct-2025 22:24:47 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\homepage.php on line 164
+[11-Oct-2025 04:53:22 Europe/Berlin] PHP Warning:  Undefined array key "term" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 229
+[11-Oct-2025 04:53:22 Europe/Berlin] PHP Warning:  Undefined array key "start_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 04:53:22 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 04:53:22 Europe/Berlin] PHP Warning:  Undefined array key "end_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 04:53:22 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 04:56:38 Europe/Berlin] PHP Warning:  Undefined array key "term" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 229
+[11-Oct-2025 04:56:38 Europe/Berlin] PHP Warning:  Undefined array key "start_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 04:56:38 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 04:56:38 Europe/Berlin] PHP Warning:  Undefined array key "end_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 04:56:38 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 05:21:10 Europe/Berlin] PHP Warning:  Undefined array key "term" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 229
+[11-Oct-2025 05:21:10 Europe/Berlin] PHP Warning:  Undefined array key "start_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 05:21:10 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 05:21:10 Europe/Berlin] PHP Warning:  Undefined array key "end_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 05:21:10 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 05:31:45 Europe/Berlin] PHP Warning:  Undefined array key "term" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 229
+[11-Oct-2025 05:31:45 Europe/Berlin] PHP Warning:  Undefined array key "start_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 05:31:45 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 05:31:45 Europe/Berlin] PHP Warning:  Undefined array key "end_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 05:31:45 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 05:40:42 Europe/Berlin] PHP Warning:  Undefined array key "term" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 229
+[11-Oct-2025 05:40:42 Europe/Berlin] PHP Warning:  Undefined array key "start_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 05:40:42 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 05:40:42 Europe/Berlin] PHP Warning:  Undefined array key "end_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 05:40:42 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 08:49:13 Europe/Berlin] PHP Warning:  Undefined array key "term" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 229
+[11-Oct-2025 08:49:13 Europe/Berlin] PHP Warning:  Undefined array key "start_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 08:49:13 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 08:49:13 Europe/Berlin] PHP Warning:  Undefined array key "end_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 08:49:13 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 10:29:41 Europe/Berlin] PHP Warning:  Undefined array key "term" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 229
+[11-Oct-2025 10:29:41 Europe/Berlin] PHP Warning:  Undefined array key "start_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 10:29:41 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 10:29:41 Europe/Berlin] PHP Warning:  Undefined array key "end_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 10:29:41 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 10:38:55 Europe/Berlin] PHP Warning:  Undefined array key "term" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 229
+[11-Oct-2025 10:38:55 Europe/Berlin] PHP Warning:  Undefined array key "start_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 10:38:55 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 233
+[11-Oct-2025 10:38:56 Europe/Berlin] PHP Warning:  Undefined array key "end_time" in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[11-Oct-2025 10:38:56 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\gabnicor\OneDrive\Desktop\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 234
+[15-Oct-2025 10:09:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 20
+[15-Oct-2025 10:09:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 21
+[15-Oct-2025 10:09:11 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'course' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:24
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(24): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 24
+[15-Oct-2025 10:14:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 26
+[15-Oct-2025 10:14:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 27
+[15-Oct-2025 10:17:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 26
+[15-Oct-2025 10:17:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 27
+[15-Oct-2025 10:18:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 26
+[15-Oct-2025 10:18:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 27
+[15-Oct-2025 10:18:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 26
+[15-Oct-2025 10:18:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 27
+[15-Oct-2025 10:21:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 26
+[15-Oct-2025 10:21:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 27
+[15-Oct-2025 10:21:42 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'year' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:31
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(31): mysqli->prepare('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 31
+[15-Oct-2025 10:21:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 26
+[15-Oct-2025 10:21:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 27
+[15-Oct-2025 10:47:18 Europe/Berlin] PHP Warning:  Undefined array key "year" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 196
+[15-Oct-2025 10:47:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 196
+[15-Oct-2025 10:51:03 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php:26
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php(26): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 26
+[15-Oct-2025 10:51:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 26
+[15-Oct-2025 10:51:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 27
+[15-Oct-2025 10:51:33 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 26
+[15-Oct-2025 10:51:33 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 27
+[15-Oct-2025 10:53:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 22
+[15-Oct-2025 10:53:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 23
+[15-Oct-2025 10:53:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'year' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:26
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(26): mysqli->prepare('\r\n    SELECT * ...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 26
+[15-Oct-2025 10:56:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 22
+[15-Oct-2025 10:56:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 23
+[15-Oct-2025 10:56:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'year' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:26
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php(26): mysqli->prepare('\r\n    SELECT * ...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 26
+[15-Oct-2025 10:58:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 25
+[15-Oct-2025 10:58:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 26
+[15-Oct-2025 10:58:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function generateProfilePictureHTML() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:77
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 77
+[15-Oct-2025 10:58:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 25
+[15-Oct-2025 10:58:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 26
+[15-Oct-2025 10:58:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function generateProfilePictureHTML() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:77
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 77
+[15-Oct-2025 10:58:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 25
+[15-Oct-2025 10:58:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 26
+[15-Oct-2025 10:58:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function generateProfilePictureHTML() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php:77
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 77
+[15-Oct-2025 10:58:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 25
+[15-Oct-2025 10:58:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 26
+[15-Oct-2025 11:26:40 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php:26
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php(26): mysqli->query('SELECT * FROM s...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 26
+[15-Oct-2025 11:38:13 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 19
+[15-Oct-2025 11:38:13 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 19
+[15-Oct-2025 11:38:13 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 19
+[15-Oct-2025 11:38:14 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 19
+[15-Oct-2025 11:38:14 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 19
+[15-Oct-2025 11:38:14 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 19
+[15-Oct-2025 11:38:14 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:14 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 19
+[15-Oct-2025 11:38:15 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:15 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 19
+[15-Oct-2025 11:38:15 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:15 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 19
+[15-Oct-2025 11:38:15 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:15 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 19
+[15-Oct-2025 11:38:16 Europe/Berlin] PHP Warning:  Undefined variable $row in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 10
+[15-Oct-2025 11:38:16 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 19
+[15-Oct-2025 11:55:22 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 83
+[15-Oct-2025 17:17:44 Europe/Berlin] PHP Warning:  Undefined array key "course" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 31
+[15-Oct-2025 17:17:54 Europe/Berlin] PHP Warning:  Undefined array key "course" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 31
+[15-Oct-2025 17:28:08 Europe/Berlin] PHP Warning:  Undefined variable $department in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 181
+[15-Oct-2025 17:29:24 Europe/Berlin] PHP Warning:  Undefined variable $department_id in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 57
+[15-Oct-2025 17:33:40 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 's.units' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php:64
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php(64): mysqli->query('SELECT s.subjec...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 64
+[15-Oct-2025 17:34:01 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 's.day' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php:64
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php(64): mysqli->query('SELECT s.subjec...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 64
+[15-Oct-2025 17:34:08 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 's.start_time' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php:64
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php(64): mysqli->query('SELECT s.subjec...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 64
+[15-Oct-2025 17:39:06 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 's.day' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php:43
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php(43): mysqli->query('SELECT s.subjec...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 43
+[15-Oct-2025 17:50:26 Europe/Berlin] PHP Warning:  Undefined variable $course in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 171
+[15-Oct-2025 17:50:26 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 179
+[15-Oct-2025 17:50:26 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 180
+[15-Oct-2025 17:50:26 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 181
+[15-Oct-2025 17:50:26 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 182
+[15-Oct-2025 17:50:26 Europe/Berlin] PHP Warning:  Undefined variable $semester in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 188
+[15-Oct-2025 17:50:26 Europe/Berlin] PHP Warning:  Undefined variable $semester in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 189
+[15-Oct-2025 17:50:33 Europe/Berlin] PHP Warning:  Undefined variable $course in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 171
+[15-Oct-2025 17:50:33 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 179
+[15-Oct-2025 17:50:33 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 180
+[15-Oct-2025 17:50:33 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 181
+[15-Oct-2025 17:50:33 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 182
+[15-Oct-2025 17:50:33 Europe/Berlin] PHP Warning:  Undefined variable $semester in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 188
+[15-Oct-2025 17:50:34 Europe/Berlin] PHP Warning:  Undefined variable $semester in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 189
+[15-Oct-2025 17:52:49 Europe/Berlin] PHP Warning:  Undefined variable $course in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 155
+[15-Oct-2025 17:52:49 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 163
+[15-Oct-2025 17:52:49 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 164
+[15-Oct-2025 17:52:49 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 165
+[15-Oct-2025 17:52:49 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 166
+[15-Oct-2025 17:52:49 Europe/Berlin] PHP Warning:  Undefined variable $semester in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 172
+[15-Oct-2025 17:52:49 Europe/Berlin] PHP Warning:  Undefined variable $semester in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 173
+[15-Oct-2025 17:55:06 Europe/Berlin] PHP Warning:  Undefined variable $course in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 168
+[15-Oct-2025 17:55:06 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 176
+[15-Oct-2025 17:55:06 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 177
+[15-Oct-2025 17:55:06 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 178
+[15-Oct-2025 17:55:06 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 179
+[15-Oct-2025 17:55:06 Europe/Berlin] PHP Warning:  Undefined variable $semester in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 185
+[15-Oct-2025 17:55:06 Europe/Berlin] PHP Warning:  Undefined variable $semester in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 186
+[15-Oct-2025 17:55:32 Europe/Berlin] PHP Warning:  Undefined variable $course in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 168
+[15-Oct-2025 17:55:32 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 176
+[15-Oct-2025 17:55:32 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 177
+[15-Oct-2025 17:55:32 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 178
+[15-Oct-2025 17:55:32 Europe/Berlin] PHP Warning:  Undefined variable $term in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 179
+[15-Oct-2025 17:55:32 Europe/Berlin] PHP Warning:  Undefined variable $semester in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 185
+[15-Oct-2025 17:55:32 Europe/Berlin] PHP Warning:  Undefined variable $semester in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\subjects.php on line 186
+[16-Oct-2025 15:57:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function generateProfilePictureHTML() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\feedback.php:50
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\feedback.php on line 50
+[16-Oct-2025 17:54:18 Europe/Berlin] PHP Warning:  Undefined variable $email in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\feedback.php on line 31
+[16-Oct-2025 17:57:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'student_email' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\feedback.php:33
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\feedback.php(33): mysqli_query(Object(mysqli), 'INSERT INTO fee...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\feedback.php on line 33
+[16-Oct-2025 20:54:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function generateProfilePictureHTML() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php on line 51
+[16-Oct-2025 20:54:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function generateProfilePictureHTML() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php on line 51
+[16-Oct-2025 20:54:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function generateProfilePictureHTML() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php on line 51
+[16-Oct-2025 20:54:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function generateProfilePictureHTML() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php on line 51
+[16-Oct-2025 20:54:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function generateProfilePictureHTML() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php on line 51
+[16-Oct-2025 20:54:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function generateProfilePictureHTML() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php on line 51
+[16-Oct-2025 20:54:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function generateProfilePictureHTML() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php on line 51
+[16-Oct-2025 20:54:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function generateProfilePictureHTML() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php on line 51
+[16-Oct-2025 20:54:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function generateProfilePictureHTML() in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php on line 51
+[17-Oct-2025 07:42:36 Europe/Berlin] PHP Warning:  Undefined array key "lastName" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php on line 204
+[17-Oct-2025 10:58:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'course' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php:23
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php(23): mysqli->prepare('SELECT firstNam...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 23
+[17-Oct-2025 10:59:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'course' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php:23
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php(23): mysqli->prepare('SELECT firstNam...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 23
+[17-Oct-2025 10:59:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'course' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php:23
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php(23): mysqli->prepare('SELECT firstNam...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 23
+[17-Oct-2025 10:59:31 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'course' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php:23
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php(23): mysqli->prepare('SELECT firstNam...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 23
+[17-Oct-2025 11:01:08 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM user_form
+          WHERE email = ?' at line 2 in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php:23
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php(23): mysqli->prepare('SELECT firstNam...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 23
+[17-Oct-2025 11:01:43 Europe/Berlin] PHP Warning:  Undefined array key "year" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 196
+[17-Oct-2025 11:01:43 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 196
+[17-Oct-2025 11:02:18 Europe/Berlin] PHP Warning:  Undefined array key "year" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 196
+[17-Oct-2025 11:02:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 196
+[17-Oct-2025 11:02:19 Europe/Berlin] PHP Warning:  Undefined array key "year" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 196
+[17-Oct-2025 11:02:19 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 196
+[17-Oct-2025 11:02:19 Europe/Berlin] PHP Warning:  Undefined array key "year" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 196
+[17-Oct-2025 11:02:19 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 196
+[17-Oct-2025 11:02:20 Europe/Berlin] PHP Warning:  Undefined array key "year" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 196
+[17-Oct-2025 11:02:20 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 196
+[17-Oct-2025 13:52:18 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'department_id' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php:23
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php(23): mysqli->prepare('SELECT firstNam...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 23
+[17-Oct-2025 13:52:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'department_id' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php:23
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php(23): mysqli->prepare('SELECT firstNam...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 23
+[17-Oct-2025 13:52:20 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'department_id' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php:23
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php(23): mysqli->prepare('SELECT firstNam...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 23
+[17-Oct-2025 14:17:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'department_id' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php:23
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php(23): mysqli->prepare('SELECT firstNam...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 23
+[17-Oct-2025 16:41:51 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system_pwu.concerns' doesn't exist in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php:25
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php(25): mysqli->query('INSERT INTO con...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php on line 25
+[17-Oct-2025 16:43:37 Europe/Berlin] PHP Warning:  Undefined array key "type_of_concern" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php on line 17
+[17-Oct-2025 16:43:37 Europe/Berlin] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php on line 17
+[17-Oct-2025 16:43:37 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system_pwu.concerns' doesn't exist in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php:25
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php(25): mysqli->query('INSERT INTO con...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php on line 25
+[17-Oct-2025 16:45:09 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system_pwu.concerns' doesn't exist in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php:28
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php(28): mysqli->query('INSERT INTO con...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php on line 28
+[17-Oct-2025 16:45:49 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php:28
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php(28): mysqli->query('INSERT INTO con...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php on line 28
+[17-Oct-2025 16:47:10 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system_pwu.concerns' doesn't exist in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php:28
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php(28): mysqli->query('INSERT INTO con...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\concern.php on line 28
+[17-Oct-2025 16:51:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'department_id' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php:23
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php(23): mysqli->prepare('SELECT firstNam...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 23
+[17-Oct-2025 16:55:49 Europe/Berlin] PHP Warning:  Undefined array key "department_id" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php on line 31
+[17-Oct-2025 16:56:23 Europe/Berlin] PHP Warning:  Undefined array key "department_id" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php on line 31
+[17-Oct-2025 16:56:55 Europe/Berlin] PHP Warning:  Undefined array key "department_id" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php on line 31
+[17-Oct-2025 16:59:39 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'department_id' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php:23
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php(23): mysqli->prepare('SELECT firstNam...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 23
+[17-Oct-2025 19:13:17 Europe/Berlin] PHP Warning:  Undefined array key "department_id" in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\assessment.php on line 31
+[17-Oct-2025 19:15:36 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'department_id' in 'field list' in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php:23
+Stack trace:
+#0 C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php(23): mysqli->prepare('SELECT firstNam...')
+#1 {main}
+  thrown in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\profIle.php on line 23
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 11 has invalid department: '1'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 12 has invalid department: '1'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 13 has invalid department: '1'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 14 has invalid department: '1'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 15 has invalid department: '2'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 16 has invalid department: '2'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 17 has invalid department: '2'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 18 has invalid department: '2'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 19 has invalid department: '3'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 20 has invalid department: '3'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 21 has invalid department: '3'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 22 has invalid department: '3'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 23 has invalid department: '4'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 24 has invalid department: '4'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 25 has invalid department: '4'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 26 has invalid department: '4'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 27 has invalid department: '5'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 28 has invalid department: '5'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 29 has invalid department: '5'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 30 has invalid department: '5'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 31 has invalid department: '6'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 32 has invalid department: '6'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 33 has invalid department: '6'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 34 has invalid department: '6'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 35 has invalid department: '7'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 36 has invalid department: '7'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 37 has invalid department: '7'
+[17-Oct-2025 20:04:06 Europe/Berlin] Student ID 38 has invalid department: '7'
+[17-Oct-2025 20:04:06 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 88
+[17-Oct-2025 20:04:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 88
+[17-Oct-2025 20:04:06 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 89
+[17-Oct-2025 20:04:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\vince\OneDrive\Desktop\PWU_WEBPORTAL_updated\PWU_WEBPORTAL\STUDENT-SIDE\curriculum.php on line 89

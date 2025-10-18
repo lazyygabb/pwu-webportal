@@ -1,0 +1,308 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background: linear-gradient(to right, rgba(128, 0, 0, 0.7), rgba(255, 255, 255, 0.7) ),
+            url('pictures/pwu-manila-facede.jpg');;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            backdrop-filter: blur(3px);
+            display: flex;
+            justify-content: center;  
+            align-items: center;
+            font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+        }
+
+        .form-wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .form-container{
+            padding: 10px 30px;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2),
+                       -7px -7px 15px rgba(255, 255, 255, 0.7);
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        h3{
+            font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: maroon;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-top: 30px;
+        }
+
+        input, select{
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            width: 100%;
+            font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: maroon;
+            box-shadow: 0 0 0 2px rgba(128, 0, 0, 0.2);
+        }
+
+        .button{
+            cursor: pointer;
+            padding: 12px;
+            border-radius: 8px;
+            border: none;
+            font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: maroon;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-top: 10px;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #600;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        p{
+            font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        a{
+            color: maroon;
+            text-decoration: none;
+            font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .error-msg {
+            display: block;          
+            margin-bottom: 10px;     
+            color: maroon;             
+            font-size: 14px;
+            text-align: center;      
+            font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+       
+        .profile-container {
+            width: 100%;
+        }
+
+        .profile-title {
+            text-align: center;
+            color: maroon;
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .profile-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .profile-firstname-lastname
+        {
+            display: flex;
+            gap: 210px;
+        }
+
+        .profile-phonenumber-dateofbirth-label {
+            display: flex;
+            gap: 180px;
+        }
+
+        .profile-location-postalcode-label{
+            gap: 225px;
+            display: flex;
+         }
+
+        .profile-name-input,
+        .profile-phonenumber-dateofbirth-input,
+        .profile-location-postalcode-input {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .profile-name-input input,
+        .profile-phonenumber-dateofbirth-input input,
+        .profile-location-postalcode-input input {
+            width: 48%;
+        }
+
+        label {
+            color: #333;
+            font-size: 14px;
+            margin-bottom: 5px;
+            display: block;
+            font-weight: 500;
+        }
+
+        .profile-address-input{
+            display: flex;
+            gap: 20px;
+        }
+
+        .profile-address-label{
+            display: flex;
+            gap: 225px;
+        }
+
+
+        .profile-email-label,
+        .profile-address-label {
+            margin-top: 5px;
+
+        }
+
+        .terms {
+            display: flex;
+            align-items: flex-start;
+            margin: 15px 0;
+        }
+
+        .terms input {
+            width: auto;
+            margin-right: 8px;
+            margin-top: 3px;
+            margin-bottom: 0;
+        }
+
+        .terms label {
+            margin-bottom: 0;
+            font-size: 13px;
+            line-height: 1.4;
+        }
+
+        .login-link {
+            text-align: center;
+        }
+        
+        .success-message {
+            display: none;
+            background-color: #d4edda;
+            color: #155724;
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 15px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .submitform{
+            background-color: maroon;
+            color: white;
+            font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+.profile-email-label {
+    display: flex;
+    gap: 325px;
+}
+
+.profile-email-input {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.profile-email-input input {
+    width: 65%;
+}
+
+.profile-email-input select {
+    width: 35%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.profile-email-input select:focus {
+    outline: none;
+    border-color: maroon;
+    box-shadow: 0 0 0 2px rgba(128, 0, 0, 0.2);
+}
+
+/* Make everything responsive */
+@media (max-width: 600px) {
+    .profile-firstname-lastname,
+    .profile-phonenumber-dateofbirth-label,
+    .profile-location-postalcode-label,
+    .profile-email-label {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .profile-name-input,
+    .profile-phonenumber-dateofbirth-input,
+    .profile-location-postalcode-input,
+    .profile-email-input {
+        flex-direction: column;
+    }
+
+    .profile-name-input input,
+    .profile-phonenumber-dateofbirth-input input,
+    .profile-location-postalcode-input input,
+    .profile-email-input input,
+    .profile-email-input select {
+        width: 100%;
+    }
+}

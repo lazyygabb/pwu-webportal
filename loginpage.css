@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, rgba(128, 0, 0, 0.7), rgba(255, 255, 255, 0.7)),
+  url('pictures/pwu-manila-facede.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-container {
+  padding: 30px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2),
+              -7px -7px 15px rgba(255, 255, 255, 0.7);
+  margin-top: 210px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.logo {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.center-logo{
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+  color: maroon;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: maroon;
+  box-shadow: 0 0 0 2px rgba(128, 0, 0, 0.2);
+}
+
+.button {
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: maroon;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 10px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #600;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  color: #333;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+a {
+  color: maroon;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.error-msg {
+  display: block;
+  margin-bottom: 10px;
+  color: maroon;
+  font-size: 14px;
+  text-align: center;
+}
+

@@ -1,0 +1,963 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+   background: linear-gradient(to right, rgba(128, 0, 0, 0.7), rgba(255, 255, 255, 0.7)), url('../pictures/pwu-manila-facede.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   backdrop-filter: blur(3px);
+}
+
+.section-home{ 
+    padding-bottom: 420px;
+}
+
+.hero-overlay{
+    margin-top: 300px;
+}
+
+h3{
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    text-shadow: 0px 5px 4px gray;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wrapper-header-dashboard{
+    display: flex;
+}
+
+.logo-pwu{
+    width: 2%;
+    height: 3%;
+    background-color: white;
+    border-radius: 60px;
+    filter: drop-shadow(1px 1px 3px black);
+    margin-left: 50px;
+    margin-top: 7px;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    margin-top: 19px;
+    margin-left: 10px;
+    color: maroon;
+    text-shadow: 0px 5px 5px gray;
+    font-weight: 300;
+    margin-right: 350px;
+}
+
+.container-header-dashboard{
+    background-color: white;
+    
+}
+
+button{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    background-color: maroon;
+    border: 1px black;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+.h4-pwu{
+    color:maroon;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+}
+
+.h3-mission{
+    color: maroon;
+    margin-right: 40px;
+    font-size: 14px;
+    margin-left: 550px;
+}
+
+.h3-vision{
+    margin-right: 40px;
+    color:maroon;
+    font-size: 14px;
+}
+
+.h3-courses{
+    margin-right: 40px;
+    color:maroon;
+    font-size: 14px;
+}
+
+.h3-about{
+    margin-right: 40px;
+    color: maroon;
+    font-size: 14px;
+}
+
+
+.h3-faculty{
+    color: maroon;
+    margin-right: 40px;
+    font-size: 14px;
+}
+
+.wrapper-header-first-section{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.h2-welcome{
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    color: maroon;
+    font-size: 60px;
+    text-shadow: 0px 5px 5px white;
+}
+
+.vision-mission{
+    text-align: center;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(128, 0, 0, 0.7);
+    font-size: 30px;
+    text-shadow: 0px 5px 5px white;
+}
+
+
+.picture-header-first-section{
+    margin-right:300px; 
+}
+
+.h1-pwu{
+    font-family: "Kanit", sans-serif;
+    color: maroon;
+    font-size: 100px;
+    text-shadow: 1px 5px 5px white;
+}
+
+.h1-calamba{
+    font-family: "Kanit", sans-serif;
+    color: maroon;
+    font-size: 60px;
+    text-shadow: 1px 5px 5px white;
+    margin-top: -20px;
+}
+
+
+.pwu-logo-section-1{
+    filter: drop-shadow(1px 1px 3px white);
+    background-color: white;
+    border-radius: 170px;
+    height: 70%;
+   
+}
+
+.p-pwu{
+    font-family: "Quicksand", sans-serif;
+    color: maroon;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 15px;
+    margin-right: 250px;
+    text-shadow: 1px 5px 5px white;
+    font-weight: bolder;
+    margin-left: 250px;
+}
+
+
+.section2 {
+    overflow: hidden;
+    scroll-behavior: smooth;
+    background: linear-gradient(to top, rgba(128, 0, 0, 0.7), rgba(255, 255, 255, 0.7));
+    padding-top: 50px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-vision-mission-section {
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+}
+
+.wrapper-vision-mission-section {
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.vision-section {
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 5px 5px black;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.mission-section {
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 5px 5px black;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.vision-mission {
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: maroon;  
+    text-align: center;
+    text-shadow: 0px 5px 5px white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.content-vision-section {
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    background-color: maroon;
+}
+
+.content-mission-section {
+    padding-bottom: 50px;
+    border-radius: 15px 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    background-color: maroon;
+}
+
+.p-vision {
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0px 5px 5px black;
+    margin-bottom: 20px;
+}
+
+.p-mission {
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+    text-shadow: 0px 5px 5px black;
+}
+
+hr{
+    color: white;
+    margin-top: 20px;
+}
+
+.section-3{
+    overflow: hidden;
+    scroll-behavior: smooth;
+    background-color: white;
+    background: linear-gradient(to left, rgba(128, 0, 0, 0.7), rgba(255, 255, 255, 0.7));
+}
+
+.h1-faculty{
+    color: white;
+    text-align: center;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    font-size: 40px;
+    text-shadow: 3px 5px 5px black;
+}
+
+.section-3{
+    overflow: hidden;
+    scroll-behavior: smooth;
+    padding-bottom: 100px;
+}
+
+.slider{
+    margin: auto;
+    height: 240px;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    position: relative;
+    margin-top: 60px;
+}
+
+.slide-track{
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 40s linear infinite;
+}
+
+.slide{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+.imgslide{
+    width: 100%;
+    transition: transform 1s;
+}
+
+.imgslide:hover{
+    transform: translateZ(20px);
+}
+
+
+.slider::before{
+    left: 0;
+    top: 0;
+}
+
+.slider::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+.section-4{
+    overflow: hidden;
+    scroll-behavior: smooth;
+    background-color: white;
+}
+
+.wrapper-card-section4{
+    padding: 10px 10%;
+}
+
+.card-area{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.card-section4{
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 5px 15px rgba(56, 39, 39, 0.5);
+    overflow: hidden;
+}
+
+.card-section4 img{
+    height: 350px;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+.overlay{
+    height: 0;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 10px;
+    transition: height 0.5s ;
+    left: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background: linear-gradient(transparent, maroon 60%);
+}
+
+.overlay h3{
+    margin-top: 55%;
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.line {
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.overlay p{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-family: "Quicksand", sans-serif;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-weight: bolder;
+}
+
+
+.card-section4:hover image{
+    transform: scale(1.1);
+}
+
+.card-section4:hover .overlay{
+    height: 100%;
+}
+
+.h1-card-section4{
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 50px;
+    text-shadow: 3px 5px 5px black;
+}
+
+.h2-card-section4{
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 430px;
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+    text-shadow: 3px 5px 5px black;
+}
+
+.h2-card-section4-tvl{
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 200px;
+    color: white;
+    margin-top: 50px;
+    font-size: 30px;
+    text-shadow: 3px 5px 5px black;
+}
+
+.section-4{
+    background: linear-gradient(to bottom, rgba(128, 0, 0, 0.7), rgba(255, 255, 255, 0.7));
+    padding-bottom: 100px;
+}
+
+.admission-h1{
+    color:white;
+    text-shadow: 3px 5px 5px black;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.admission-shs-h3{
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-shadow: 1px 5px 5px silver;
+    text-align: center;
+    font-size: 25px;
+}
+
+.admission-shs-h4{
+    font-family: "Quicksand", sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.hr-section4{
+    margin-top: 50px;
+}
+
+.wrapper-admission{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+li{
+    margin-left: 70px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: light;
+    margin-top: 5px;
+}
+
+.content-shs{
+    border: 1px white solid;
+    background-color: white;
+    padding: 30px 90px 30px 90px;
+    border-radius: 20px;
+    box-shadow: 5px 15px 20px black;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.content-college{
+    border: 1px white solid;
+    background-color: white;
+    padding: 30px 70px 30px 70px;
+    border-radius: 20px;
+    box-shadow: 5px 15px 20px black;
+    margin-right: 100px;
+}
+
+.section-5{
+    padding: 80px;
+}
+
+.section-5 p{
+    font-family: "Quicksand", sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    
+}
+
+.admission-college-h3{
+    font-family: "Lilita One", sans-serif;
+    color: black;
+    text-shadow: 1px 5px 5px silver;
+    text-align: center;
+    font-size: 25px;
+}
+
+.section-1 {
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 60px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 150px;
+}
+
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-text {
+  flex: 1;
+  font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-shadow: 0px 5px 5px black;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  color: maroon;
+  font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome-pwu{
+    color:white;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 5px 5px black;
+    text-align: center;
+    font-size: 45px;
+}
+
+.welcome-p{
+    color:white;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 5px 5px black;
+    text-align: center;
+    font-size: 25px;
+}
+
+.welcome-a{
+    color:white;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 5px 5px black;
+    text-align: center;
+}
+
+.button-a{
+    display: flex;
+    justify-content: center;
+}
+
+.button-a-a{
+    padding: 10px;
+}
+
+.section_benedicto{
+    background-color: white;
+    padding: 20px;
+}
+
+.container_benedicto{
+    margin-top: 30px;
+    margin-left: 70px;
+    display: flex;
+}
+
+.wrapper_benedicto{
+    display: flex;
+}
+
+.p_benedicto > p {
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    font-size: 20px;
+    text-shadow: 0px 5px 5px gray;
+    text-align: justify;
+}
+.p_benedicto > h2 {
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-shadow: 0px 5px 5px gray;
+}
+
+.p_benedictoo{
+    text-align: justify;
+    margin-right: 400px;
+}
+
+.picture_benedicto{
+    border-radius: 20px;
+    filter: drop-shadow(3px 5px 5px black);
+    margin-left: 70px;
+    width: 60%;
+    height: 45%;
+}
+
+.letter_container_benedicto{
+    background-color: #670E10;
+    border-top-left-radius: 30px; 
+    border-bottom-left-radius: 30px;
+    margin-left: 325px;
+    padding: 20px 0px 20px 0px;
+    box-shadow: 0px 5px 5px black;
+}
+
+.container_courses{
+    padding-bottom: 30px;
+}
+
+.h3_benedicto{
+    margin-left: 50px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 5px 5px black;
+    margin-top: -1px;
+}
+
+.h2_benedicto{
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 5px 5px black;
+    margin-top: -1px;
+}
+
+.section_course{
+    background-color: #670E10 ;
+    padding-bottom: 20px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+
+.first-section{
+    display: flex;
+    text-align: center;
+    gap: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.first-seciton-cards{
+    border:3px   white solid;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 10px 10px black;
+    transition: transform 0.2s ease-out;
+}
+
+.first-seciton-cards:hover{
+    transform: scale(1.1);
+}
+
+.first-seciton-cards > p{
+    color: maroon;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    text-align: justify;
+    
+}
+
+
+.hr_1{
+    margin-bottom: 10px;
+}
+
+.wrapper_courses{
+    margin-top: 50px;
+}
+
+.first-seciton-cards > h1{
+    color: maroon;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic; 
+}
+
+.second-seciton-cards{
+    border:3px   white solid;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-style: italic;
+    box-shadow: 5px 10px 10px black;
+    transition: transform 0.2s ease-out;
+}
+
+.second-seciton-cards > p{
+    color: maroon;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    text-align: justify;
+
+}
+
+.second-seciton-cards:hover{
+    transform: scale(1.1);
+}
+
+.second-seciton-cards > h1{
+    color: maroon;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.third-seciton-cards{
+    border:3px   white solid;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 10px 10px black;
+    transition: transform 0.2s ease-out;
+}
+
+.third-seciton-cards:hover{
+    transform: scale(1.1);
+}
+
+.third-seciton-cards > p{
+    color: maroon;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.third-seciton-cards > h1{
+    color: maroon;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.background-svg{
+    background-color: white;
+    padding: 10px;
+    border-radius: 200px;
+    margin: 0px 120px 0px 120px;
+}
+
+.senior_courses{
+    color: white;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 5px 5px black;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.academic_courses{
+    color: white;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 5px 5px black;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.stem_card{
+    width: 50%;
+}
+
+.abm_card{
+    width: 50%;
+}
+
+.humms_card{
+    width: 50%;
+}
+
+.cookery_card{
+    width: 40%;
+}
+
+.ict_card{
+    width: 39%;
+}
+
+.educ_card{
+    width: 30%;
+}
+
+.last_wrapper_courses{
+    display: flex;
+    text-align: center;
+}
+
+.last-section{
+    margin: 30px 530px 60px 518px;
+    box-shadow: 5px 10px 10px black;
+}
+
+.last-seciton-cards:hover{
+    transform: scale(1.1);
+}
+
+.last_course{
+    color: maroon;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.college_h1{
+    font-size: 15px;
+    color: maroon;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.last-seciton-cards{
+    border:3px   white solid;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    transition: transform 0.2s ease-out;
+}
+
+.header{
+    background-color: white;
+    padding: 20px;
+}
+
+.div_header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.div_header > h1{
+    color: maroon;
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 5px 5px gray   ;
+}
+
+.text_header{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.official_div{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper_official{
+    margin-top: 30px;
+}
+
+.official_div > img{
+    gap: 100px;
+}
+
+footer {
+    background-color: darkred; 
+    color: #ffffff; 
+    padding: 20px 0;
+    text-align: center; 
+    width: 100%; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+        
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+        
+.footer-wrapper {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+        }
+
+        
+        .footer-p {
+    font-size: 14px; 
+    margin: 0; 
+    letter-spacing: 0.5px; 
+        }
+
+       
+@media (max-width: 768px) {
+.footer-container {
+    padding: 0 10px;
+}
+ .footer-p {
+    font-size: 12px; 
+}
+}

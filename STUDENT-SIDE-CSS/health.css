@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-header{ 
+    display: flex;
+}
+
+body {
+  display: grid;
+  grid-template-columns: auto 1fr; 
+  min-height: 100vh;
+  background: linear-gradient(to right, rgba(128, 0, 0, 0.7), rgba(255, 255, 255, 0.7)), url('../pictures/pwu-manila-facede.jpg');
+}
+
+.page-content {
+  display: grid;
+  grid-template-rows: auto 1fr; 
+}
+
+.container-header {
+  background-color: maroon;
+  display: flex;
+  padding: 8px;
+}
+
+.h2-pwu{ 
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  margin-top: 13px;
+  margin-left: 10px;
+  color: white;
+  text-shadow: 3px 5px 5px black;
+  font-weight: 400;
+}
+
+.pwu-logo{ 
+  width: 7.5%;
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 40px;
+  filter: drop-shadow(10px 3x 3px black);
+  margin-top: 5px;
+}
+
+
+:root{
+  --hover-clr: maroon;
+  --text-clr: white;
+
+}
+
+html{
+  font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5rem;
+}
+
+body{
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+#sidebar{
+  box-sizing: border-box;
+  height: 100vh;
+  width: 250px;
+  padding: 2px 1em;
+  background-color: maroon;
+  border-right: 1px solid var(black);
+  position: sticky;
+  top: 0;
+  align-self: start;
+  transition: 400ms ease-in-out;
+  overflow: hidden;
+  text-wrap: nowrap;
+}
+#sidebar.close{
+  width: 53px;
+  padding: 5px;
+}
+#sidebar.close .profile-pic {
+  width: 40px;
+  border-radius: 50%;
+}
+#sidebar .sub-menu {
+  display: none;
+  padding-left: 20px;
+}
+#sidebar ul{
+  list-style: none;
+}
+#sidebar > ul > li:first-child{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+  .logo{
+    font-weight: 400;
+  }
+}
+#sidebar ul li.active a{
+  color: white;
+
+  svg{
+    fill: white;
+  }
+}
+
+#sidebar a, #sidebar .dropdown-btn, #sidebar .logo{
+  border-radius: .5em;
+  padding: .85em;
+  text-decoration: none;
+  color: var(--text-clr);
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.dropdown-btn{
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+#sidebar svg{
+  flex-shrink: 0;
+  fill: var(--text-clr);
+}
+#sidebar a span, #sidebar .dropdown-btn span{
+  flex-grow: 1;
+}
+#sidebar a:hover, #sidebar .dropdown-btn:hover{
+  background-color: var(--hover-clr);
+}
+#sidebar .sub-menu{
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 300ms ease-in-out;
+
+  > div{
+    overflow: hidden;
+  }
+}
+
+
+#sidebar .sub-menu.show{
+  grid-template-rows: 1fr;
+}
+.dropdown-btn svg{
+  transition: 200ms ease;
+}
+.rotate svg:last-child{
+  rotate: 180deg;
+}
+#sidebar .sub-menu a{
+  padding-left: 2em;
+}
+#toggle-btn{
+  margin-left: auto;
+  padding: 1em;
+  border: none;
+  border-radius: .5em;
+  background: none;
+  cursor: pointer;
+
+  svg{
+    transition: rotate 150ms ease;
+  }
+}
+#toggle-btn:hover{
+  background-color: var(--hover-clr);
+}
+
+main{
+  padding: min(30px, 7%);
+}
+main p{
+  color: var(--secondary-text-clr);
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.container{
+  border: 1px solid var(--line-clr);
+  border-radius: 1em;
+  margin-bottom: 20px;
+  padding: min(3em, 15%);
+
+  h2, p { margin-top: 1em }
+}
+
+@media(max-width: 800px){
+  body{
+    grid-template-columns: 1fr;
+  }
+  main{
+    padding: 2em 1em 60px 1em;
+  }
+  .container{
+    border: none;
+    padding: 0;
+  }
+  #sidebar{
+    height: 60px;
+    width: 100%;
+    border-right: none;
+    border-top: 1px solid var(--line-clr);
+    padding: 0;
+    position: fixed;
+    top: unset;
+    bottom: 0;
+
+    > ul{
+      padding: 0;
+      display: grid;
+      grid-auto-columns: 60px;
+      grid-auto-flow: column;
+      align-items: center;
+      overflow-x: scroll;
+    }
+    ul li{
+      height: 100%;
+    }
+    ul a, ul .dropdown-btn{
+      width: 60px;
+      height: 60px;
+      padding: 0;
+      border-radius: 0;
+      justify-content: center;
+    }
+
+    ul li span, ul li:first-child, .dropdown-btn svg:last-child{
+      display: none;
+    }
+
+    ul li .sub-menu.show{
+      position: fixed;
+      bottom: 60px;
+      left: 0;
+      box-sizing: border-box;
+      height: 60px;
+      width: 100%;
+      background-color: var(--hover-clr);
+      border-top: 1px solid var(--line-clr);
+      display: flex;
+      justify-content: center;
+
+      > div{
+        overflow-x: auto;
+      }
+      li{
+        display: inline-flex;
+      }
+      a{
+        box-sizing: border-box;
+        padding: 1em;
+        width: auto;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+#sidebar.close .user-info .user-id,
+#sidebar.close .user-info .user-name,
+#sidebar.close .user-info .user-email {
+  display: none;
+}
+
+#sidebar.close .user-info .profile-pic {
+  width: 40px;
+}
+
+.profile-module{
+  font-size: 14px;
+}
+
+.concern-module{
+  font-size: 10px;
+}
+
+li{
+  font-size: 13px;
+}
+
+.user-info{
+    text-align: center;
+    overflow: hidden;
+}
+
+.profile-pic{
+    width: 50%;
+    border-radius: 50px;
+}
+
+.user-id{
+    color: gray;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.user-name{
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+}
+
+.user-email{
+    color: gray;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.health-container button{
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: maroon;
+  font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.buttons{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.buttons button:hover{
+  background-color: darkred;
+  transition: 300ms;
+}
+
+.buttons button:active{
+  transform: scale(0.98);
+  background-color: white;
+  color: maroon;
+}
+
+.blocks{
+  display: flex;
+  width: 100%;
+  height: auto;
+  gap: 15px; 
+  padding-bottom: 200px;
+}
+
+.blocks > div{
+  display: none;
+}
+
+
+.about{
+  background-color: white;
+  display: block;
+  margin: 10px 20px 0px 20px;
+  padding: 10px;
+  border-radius: 15px;
+  border-left: 4px solid maroon; 
+  padding-left: 15px;             
+  margin-left: 10px;
+}
+
+.about h3{
+  text-align: center; 
+  color: maroon;
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px gray;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.about p{
+  text-align: justify;
+  text-indent: 20px;
+  margin-top: 10px;
+  line-height: 2;
+}
+
+#about{
+  display: block;
+}
+
+.bulletin{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.bulletin li{
+  margin-top: 10px;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.emergency-hotlines{
+  background-color: white;
+  display: block;
+  margin: 10px 20px 0px 20px;
+  padding: 10px;
+  border-radius: 15px;
+  border-left: 4px solid maroon; 
+  padding-left: 15px;             
+  margin-left: 10px;
+}
+
+.emergency-hotlines h3{
+  text-align: center;
+  color: maroon;
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px gray;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.emergency-hotlines p{
+  text-align: justify;
+  text-indent: 20px;
+  margin-top: 10px;
+  line-height: 2;
+}
+
+.hotline h4{
+  text-align: center;
+  margin-top: 20px;
+  color: maroon;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.hotline p{
+  text-align: center;
+}
+
+.hospital-div{
+  background-color: maroon;
+  margin: 20px 420px 0px 420px;
+  padding: 10px 10px 15px 10px;
+  border-radius: 15px;
+}
+
+.hospital-div > h3{
+  color: white;
+}
+
+.hospitals{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 200px;
+}
+
+.hospitals hr{
+  margin: 0px 30px 0px 30px;
+}
+
+.hospitals h4{
+  color: maroon;
+  font-size: 20px;
+}
+
+.hospitals p{
+  font-size: 17px;
+}
+
+.health-announcements{  
+  background-color: white;
+  display: block;
+  margin: 10px 20px 0px 20px;
+  padding: 10px;
+  border-radius: 15px;
+  border-left: 4px solid maroon; 
+  padding-left: 15px;             
+  margin-left: 10px;
+  padding-bottom: 30px;
+}
+
+.health-announcements h3{
+  text-align: center;
+  color: maroon;
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px gray;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.health-announcements p{
+  text-align: justify;
+  text-indent: 20px;
+  margin-top: 10px;
+  line-height: 2;
+}
+
+.health-announcements h4{
+  text-align: start;
+  margin-top: 20px;
+  color: maroon;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.medical-clearances{
+  background-color: green;
+  display: block;
+}
+
+.medical-clearances{
+  background-color: white;
+  display: block;
+  margin: 10px 20px 0px 20px;
+  padding: 10px;
+  border-radius: 15px;
+  border-left: 4px solid maroon; 
+  padding-left: 15px;             
+  margin-left: 10px;
+  padding-bottom: 30px;
+}
+
+.medical-clearances h3{
+  text-align: center;
+  color: maroon;
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px gray;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.medical-clearances p{
+  text-align: justify;
+  text-indent: 20px;
+  margin-top: 10px;
+  line-height: 2;
+}
+
+.clearance h4{
+  text-align: start;
+  margin-top: 20px;
+  color: maroon;
+  font-style: italic;
+  font-size: 17px;
+}
+
+.clearance input{
+  padding: 10px;
+  font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mental-health-resources{
+  background-color: white;
+  display: block;
+  margin: 10px 20px 0px 20px;
+  padding: 10px;
+  border-radius: 15px;
+  border-left: 4px solid maroon; 
+  padding-left: 15px;             
+  margin-left: 10px;
+  padding-bottom: 30px;
+}
+
+.mental-health-resources h3{
+  text-align: center;
+  color: maroon;
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px gray;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.mental-health-resources p{
+  text-align: justify;
+  text-indent: 20px;
+  margin-top: 10px;
+  line-height: 2;
+}
+
+.resource h4{
+  text-align: start;
+  margin-top: 20px;
+  color: maroon;
+  font-style: italic;
+  font-size: 17px;
+}
+
+.resource input{
+  padding: 10px;
+  font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr{
+  color: maroon;
+  margin-top: 5px;
+}
+
